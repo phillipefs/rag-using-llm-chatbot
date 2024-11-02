@@ -1,0 +1,40 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -35px
+}
+.title {
+    font-size: 2.5em;
+    color: #CCCCCC;
+    margin: 0;
+}
+.subtitle {
+    font-size: 1.5em;
+    color: #CCCCCC;
+    margin-bottom: 0px;
+}
+.description {
+    font-size: 1.2em;
+    color: #CCCCCC;
+    margin-bottom: 0px;
+}
+.logo-image {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.footer {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para o st.chat_input */
+div[data-testid="stChatInput"] textarea {
+    height: 90px;  /* Ajuste a altura conforme necessário */
+}
